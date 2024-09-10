@@ -639,16 +639,40 @@ form p {
         display: block;
     }
 
+    .classes {
+        height: max-content;
+    }
+
     .classesimg {
         height: 400px;
     }
 
+    .tuesday p {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .wednesday p {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 1.7rem;
+    }
+
     .schedule {
-        height: 90%;
+        height: 550px;
+    }
+
+    .sunday p {
+        display: none;
+    }
+
+    .monday p {
+        display: none;
     }
 
     .formintro {
         width: 90%;
+        height: 60px;
     }
 
     .formintro p {
@@ -658,7 +682,8 @@ form p {
     }
 
     form {
-        margin-top: 80px;
+        margin-top: 120px;
+        height: 200px;
     }
 
     .Amy {
