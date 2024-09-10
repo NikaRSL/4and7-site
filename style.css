@@ -725,6 +725,7 @@ form p {
 
     .imghouse {
         height: 380px;
+        margin-top: 20px;
     }
 
     .Amy img {
@@ -745,4 +746,6 @@ form p {
         font-size: 2rem;
         max-height: max-content;
     }
+
+
 }
