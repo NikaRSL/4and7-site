@@ -666,5 +666,6 @@ form p {
 
     .aboutbio {
         font-size: 2rem;
+        max-height: max-content;
     }
 }
