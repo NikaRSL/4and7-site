@@ -645,6 +645,10 @@ form p {
         height: 440px;
     }
 
+    .imghouse {
+        height: 380px;
+    }
+
     .Amy img {
         max-width: auto;
         height: 100%;
@@ -660,7 +664,7 @@ form p {
 
     .aboutwords {
         margin-top: 20px;
-        width: 100%;
+        width: 86%;
     }
 
     .aboutbio {
