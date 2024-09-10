@@ -627,20 +627,20 @@ form p {
     align-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    width: auto;
     background-color: #46473a;
-    margin: 0 0 0 0;
 }
 
 .comm {
-    padding-left: 30px;
-    padding-right: 30px
+    width: 100%;
 }
 
 .comm p {
     color: #e0e0e7;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .comm p a:link {
