@@ -19,6 +19,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 5vh;
+    resize: none;
 }
 
 .local a {
@@ -557,11 +558,46 @@ form p {
     height: 570px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.imghouse {
+    height: 570px;
 }
 
 .Amy img {
-    height: 100%;
+    max-height: 100%;
     width: auto;
+    display: block;
+}
+
+.aboutwords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin-right: 27px;
+    margin-left: 27px;
+    background-color: #46473a;
+    color: #e0e0e7;
+}
+
+.aboutintro {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.aboutbio {
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 200px;
+    max-height: 570px;
 }
 
 
@@ -585,5 +621,45 @@ form p {
         max-width: 100%;
         height: auto;
         display: block;
+    }
+
+    .schedule {
+        height: 90%;
+    }
+
+    .formintro {
+        width: 90%;
+    }
+
+    .formintro p {
+        font-size: 2rem;
+    }
+
+    form {
+        margin-top: 80px;
+    }
+
+    .Amy {
+        display: flex;
+        justify-content: space-around;
+        height: 440px;
+    }
+
+    .Amy img {
+        max-width: auto;
+        height: 100%;
+        display: block;
+    }
+}
+
+@Media only screen and (max-width: 1240px) {
+    .Amy {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .aboutwords {
+        margin-top: 20px;
+        width: 100%;
     }
 }
