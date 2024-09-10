@@ -555,7 +555,6 @@ form p {
 /*START ABOUT*/
 
 .Amy {
-    height: 570px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -579,6 +578,7 @@ form p {
     justify-content: center;
     align-items: center;
     max-width: 700px;
+    min-width: 300px;
     margin-right: 27px;
     margin-left: 27px;
     background-color: #46473a;
@@ -642,7 +642,6 @@ form p {
     .Amy {
         display: flex;
         justify-content: space-around;
-        height: 440px;
     }
 
     .imghouse {
@@ -658,8 +657,6 @@ form p {
 
 @Media only screen and (max-width: 1240px) {
     .Amy {
-        flex-direction: column;
-        flex-wrap: nowrap;
     }
 
     .aboutwords {
@@ -668,6 +665,6 @@ form p {
     }
 
     .aboutbio {
-        max-height: max-content;
+        font-size: 2rem;
     }
 }
