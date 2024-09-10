@@ -329,14 +329,14 @@ body {
 
 .sunday p {
     grid-area: 1 / 1 / 1 / 1;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-left: 1px;
     margin-right: 1px;
 }
 
 .monday p {
     grid-area: 1 / 2 / 1 / 2;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-left: 1px;
     margin-right: 1px;
 }
@@ -378,7 +378,7 @@ body {
 
 .thursday p {
     grid-area: 1 / 5 / 1 / 5;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .friday {
@@ -426,6 +426,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .kid4 {
@@ -433,6 +435,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .teen1 {
@@ -440,6 +444,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .teen2 {
@@ -447,6 +453,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .teen3 {
@@ -454,6 +462,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .teen4 {
@@ -461,6 +471,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .mom {
@@ -487,6 +499,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .adult2 {
@@ -494,6 +508,8 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .formintro {
@@ -623,6 +639,10 @@ form p {
         display: block;
     }
 
+    .classesimg {
+        height: 400px;
+    }
+
     .schedule {
         height: 90%;
     }
@@ -632,7 +652,9 @@ form p {
     }
 
     .formintro p {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     form {
@@ -656,8 +678,6 @@ form p {
 }
 
 @Media only screen and (max-width: 1240px) {
-    .Amy {
-    }
 
     .aboutwords {
         margin-top: 20px;
