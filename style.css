@@ -514,6 +514,108 @@ body {
     margin-left: 3px;
 }
 
+.classes2 {
+    margin-top: 5px;
+    display: flex;
+    height: 570px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    grid-area: 2 / 2 / 2 / 2;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.child2 {
+    grid-area: 2 / 3 / 2 / 3;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.child3 {
+    grid-area: 2 / 4 / 2 / 4;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.child4 {
+    grid-area: 3 / 2 / 3 / 2;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.child5 {
+    grid-area: 4 / 3 / 4 / 3;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.child6 {
+    grid-area: 3 / 4 / 3 / 4;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.child7 {
+    grid-area: 4 / 2 / 4 / 2;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.child8 {
+    grid-area: 3 / 3 / 3 / 3;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.child9 {
+    grid-area: 4 / 4 / 4 / 4;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.child10 {
+    grid-area: 5 / 2 / 5 / 2;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.child11 {
+    grid-area: 5 / 3 / 5 / 3;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.child12 {
+    grid-area: 5 / 4 / 5 / 4;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
 .formintro {
     display: flex;
     height: 10%;
@@ -732,6 +834,17 @@ form p {
         max-width: auto;
         height: 100%;
         display: block;
+    }
+}
+
+@Media only screen and (max-width: 1122px) {
+    .classes2 {
+        margin-top: 580px;
+        justify-content: center;
+    }
+
+    .classes2 img {
+        display: none;
     }
 }
 
