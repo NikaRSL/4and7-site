@@ -544,6 +544,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child2 {
@@ -551,6 +553,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child3 {
@@ -567,6 +571,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child5 {
@@ -574,6 +580,8 @@ body {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child6 {
@@ -590,6 +598,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child8 {
@@ -615,6 +625,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child11 {
@@ -622,6 +634,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .child12 {
@@ -832,6 +846,11 @@ form p {
         display: none;
     }
 
+    .classes2 .monday p {
+        display: block;
+        font-size: 1.37rem;
+    }
+
     .formintro {
         width: 90%;
         height: 60px;
@@ -865,15 +884,43 @@ form p {
     }
 }
 
+@media only screen and (max-width: 696px) {
+    .arttown2 {
+        margin-top: 780px;
+}
+    .classes2 {
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .classes2 img {
+        display: block !important;
+        height: 70%;
+        width: auto;
+        margin-top: 130px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1122px) and (min-width: 696px) {
+    .classes2 {
+        margin-top: 780px;    
+        }
+    }
+
 @Media only screen and (max-width: 1122px) {
     .classes2 {
-        margin-top: 580px;
         justify-content: center;
     }
 
     .classes2 img {
         display: none;
     }
+
+
 }
 
 @Media only screen and (max-width: 1240px) {
