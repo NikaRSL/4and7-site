@@ -810,6 +810,12 @@ form p {
     }
 }
 
+@media only screen and (max-width: 510px) {
+    .bird {
+        height: 300px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .arttown {
         width: 400px;
