@@ -771,34 +771,23 @@ form p {
 
 /*END ABOUT*/
 /*START COMMISSIONS*/
-.commhouse {
+
+.comm {
+    height: 150px;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 100vh;
-    width: auto;
-    background-color: #46473a;
-}
-
-.comm {
-    width: 100%;
 }
 
 .comm p {
-    color: #e0e0e7;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
-    padding-left: 12px;
-    padding-right: 12px;
+    color: #46473a;
 }
 
-.comm p a:link {
-    text-decoration: none;
-}
-
-.comm p a:hover {
-    text-decoration: none;
+.comm p span {
+    font-style: italic;
 }
 
 /*END COMMISSIONS*/
