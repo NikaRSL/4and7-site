@@ -192,6 +192,7 @@ body {
 .monthly {
     margin-bottom: 1px;
     font-size: 3rem;
+    padding-top: 5px;
 }
 
 .schedule {
@@ -777,6 +778,7 @@ form p {
 /*START COMMISSIONS*/
 
 .comm {
+    margin-top: 20px;
     height: 180px;
     display: flex;
     justify-content: center;
@@ -797,22 +799,31 @@ form p {
 /*END COMMISSIONS*/
 
 .end {
-    height: 60px;
+    height: 50px;
     position: fixed;
-    bottom: 28px;
-    right: 28px;
-    z-index: -1;
+    bottom: 5px;
+    right: 5px;
+    z-index: 5;
 }
 
 .end img {
     height: 100%;
     width: auto;
+    display: none;
 }
 
 
 @media only screen and (max-width: 410px) {
     .four .seven {
         font-size: 18rem;
+    }
+
+    .comm p {
+        font-size: 3rem;
+    }
+
+    .formintro p {
+        font-size: 1.5rem !important;
     }
 }
 
@@ -882,6 +893,10 @@ form p {
     .classes2 .monday p {
         display: block;
         font-size: 1.37rem;
+    }
+
+    .classes2 .thursday p {
+        display: none;
     }
 
     .formintro {
