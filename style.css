@@ -825,6 +825,14 @@ form p {
     .formintro p {
         font-size: 1.5rem !important;
     }
+
+    .bird {
+        height: 230px !important;
+    }
+
+    .four .studio {
+        font-size: 2.7rem !important;
+    }
 }
 
 @media only screen and (max-width: 510px) {
